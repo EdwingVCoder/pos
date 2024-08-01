@@ -1,0 +1,123 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:5046594214003581896",
+      "lastPropertyId": "4:7318630872504905238",
+      "name": "Bill",
+      "properties": [
+        {
+          "id": "1:7955384740606013176",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:6371580332003840085",
+          "name": "products",
+          "type": 27
+        },
+        {
+          "id": "3:6857593765177658154",
+          "name": "date",
+          "type": 10
+        },
+        {
+          "id": "4:7318630872504905238",
+          "name": "clientId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "1:923033866719634236",
+          "relationTarget": "Client"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:8133119454326413977",
+      "lastPropertyId": "5:1778787442093384412",
+      "name": "Client",
+      "properties": [
+        {
+          "id": "1:1848104283746612188",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:5305946011452316050",
+          "name": "phone",
+          "type": 9
+        },
+        {
+          "id": "3:80647820487031942",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "4:6461524637341058637",
+          "name": "address",
+          "type": 9
+        },
+        {
+          "id": "5:1778787442093384412",
+          "name": "hood",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:5674168207490397179",
+      "lastPropertyId": "6:7792837319810027353",
+      "name": "Product",
+      "properties": [
+        {
+          "id": "1:1561393345972292914",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:8364959402187969103",
+          "name": "code",
+          "type": 9
+        },
+        {
+          "id": "3:1021373905571943540",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "4:7686170874662947468",
+          "name": "buyPrice",
+          "type": 6
+        },
+        {
+          "id": "5:1233883714659582199",
+          "name": "sellPrice",
+          "type": 6
+        },
+        {
+          "id": "6:7792837319810027353",
+          "name": "stock",
+          "type": 6
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "3:5674168207490397179",
+  "lastIndexId": "1:923033866719634236",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
